@@ -1,4 +1,4 @@
-package co.com.sofkau.training.ddd.persona.identities;
+package co.com.sofkau.training.ddd.servicio.identities;
 
 import co.com.sofka.domain.generic.Identity;
 
@@ -11,4 +11,3 @@ public class PlanId extends Identity {
         return new PlanId(id);
     }
 }
-
