@@ -7,6 +7,7 @@ import co.com.sofkau.training.ddd.celda.events.CeldaCreada;
 import co.com.sofkau.training.ddd.celda.identities.CeldaId;
 import co.com.sofkau.training.ddd.celda.values.DescripcionCelda;
 import co.com.sofkau.training.ddd.celda.values.Ubicacion;
+import co.com.sofkau.training.ddd.cliente.Cliente;
 import co.com.sofkau.training.ddd.servicio.Servicio;
 
 import java.util.List;
