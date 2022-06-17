@@ -2,7 +2,7 @@ package co.com.sofkau.training.ddd.cliente.values;
 
 import co.com.sofka.domain.generic.ValueObject;
 
-public class DocumentoIdentidad implements ValueObject<DocumentoIdentidad> {
+public class DocumentoIdentidad implements ValueObject<String> {
     private final String tipo;
     private final String digitos;
 
@@ -12,7 +12,7 @@ public class DocumentoIdentidad implements ValueObject<DocumentoIdentidad> {
     }
 
     @Override
-    public DocumentoIdentidad value() {
-        return new DocumentoIdentidad(tipo, digitos);
+    public String value() {
+        return tipo + " " + digitos;
     }
 }

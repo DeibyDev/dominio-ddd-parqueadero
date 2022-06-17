@@ -3,7 +3,7 @@ package co.com.sofkau.training.ddd.cliente.values;
 import co.com.sofka.domain.generic.ValueObject;
 import co.com.sofkau.training.ddd.servicio.values.Fecha;
 
-public class Nombre implements ValueObject<Nombre> {
+public class Nombre implements ValueObject<String> {
     private final String nombre;
     private final String apellido;
 
@@ -13,7 +13,7 @@ public class Nombre implements ValueObject<Nombre> {
     }
 
     @Override
-    public Nombre value() {
-        return new Nombre(nombre, apellido);
+    public String value() {
+        return nombre + " " + apellido;
     }
 }
