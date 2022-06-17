@@ -18,4 +18,16 @@ public class Plan extends Entity<PlanId> {
         this.tipoPlan = tipoPlan;
         this.costo = costo;
     }
+
+    public TipoPlan consultarTipoPlan() {
+        return tipoPlan;
+    }
+
+    public Costo consultarCosto(){
+        return costo;
+    }
+
+    public void modificarPlan(){}
+
+    public void modificarCosto(){}
 }

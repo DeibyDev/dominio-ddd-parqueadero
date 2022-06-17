@@ -31,11 +31,17 @@ public class Servicio extends AggregateEvent<ServicioId> {
         appendChange(new ServicioCreado(tipoPlan, costo)).apply();
     }
 
-    public Plan getPlan() {
+    public Plan consultarPlan() {
         return plan;
     }
 
-    public Factura getFactura() {
+    public Factura consultarFactura() {
         return factura;
     }
+
+    public void generarFactura(){}
+
+    public void asignarPlan(){}
+
+    public void modificarPlan(){}
 }

@@ -18,4 +18,16 @@ public class TipoCelda extends Entity<TipoCeldaId> {
         this.descripcionCelda = descripcionCelda;
         this.ubicacion = ubicacion;
     }
+
+    public DescripcionCelda consultarDescripcion(){
+        return descripcionCelda;
+    }
+
+    public Ubicacion consultarUbicacion(){
+        return ubicacion;
+    }
+
+    public void actualizarDescripcion(){}
+
+    public void actualizarUbicacion(){}
 }

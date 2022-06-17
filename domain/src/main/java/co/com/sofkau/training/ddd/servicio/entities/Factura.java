@@ -18,4 +18,6 @@ public class Factura extends Entity<FacturaId> {
         this.valorTotal = valorTotal;
         this.fecha = fecha;
     }
+
+    public void modificarCosto(){}
 }

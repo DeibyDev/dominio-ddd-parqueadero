@@ -14,4 +14,14 @@ public class Vehiculo extends Entity<VehiculoId> {
         this.descripcionVehiculo = descripcionVehiculo;
         this.placa = placa;
     }
+
+    public DescripcionVehiculo consultarDescripcion(){
+    return descripcionVehiculo;
+    }
+
+    public Placa consultarPlaca(){
+        return placa;
+    }
+
+    public void modificarDescripcionVehiculo(){}
 }

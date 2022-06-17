@@ -40,4 +40,6 @@ public class Celda extends AggregateEvent<CeldaId> {
     public void asignarServicio(){
 
     }
+
+    public void asignarCelda(){}
 }

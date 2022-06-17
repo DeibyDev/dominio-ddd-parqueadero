@@ -38,11 +38,17 @@ public class Cliente extends AggregateEvent<ClienteId> {
         appendChange(new ClienteCreado(nombre, documentoIdentidad, activo)).apply();
     }
 
-    public Usuario getUsuario() {
+    public Usuario consultarUsuario() {
         return usuario;
     }
 
-    public Vehiculo getVehiculo() {
+    public Vehiculo consultarVehiculo() {
         return vehiculo;
     }
+
+    public void asignarCliente(){}
+
+    public void asignarVehiculo(){}
+
+    public void modificarVehiculo(){}
 }

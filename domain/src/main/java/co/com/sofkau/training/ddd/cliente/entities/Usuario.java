@@ -17,4 +17,25 @@ public class Usuario extends Entity<UsuarioId> {
         this.documentoIdentidad = documentoIdentidad;
         this.activo = activo;
     }
+
+    public Nombre consultarNombre() {
+        return nombre;
+    }
+
+    public DocumentoIdentidad consultarDocumentoIdentidad() {
+        return documentoIdentidad;
+    }
+
+    public Activo consultarActivo() {
+        return activo;
+    }
+
+    public void actualizarNombre() {
+    }
+
+    public void actualizarDocumentoIdentidad() {
+    }
+
+    public void modificarEstado() {
+    }
 }
