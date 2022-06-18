@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Parqueadero" />
+        <module name="dominio-ddd-parqueadero" />
       </profile>
     </annotationProcessing>
   </component>
